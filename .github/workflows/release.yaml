@@ -62,6 +62,7 @@ jobs:
 
       - name: Install xinference-client
         run: |
+          pip install typing-extensions
           pip install -U xinference-client
         working-directory: .
 
